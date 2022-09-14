@@ -1,10 +1,10 @@
 #!/bin/bash
 
-if [! -d "./dbdata"]; then
+if [ ! -d "./dbdata" ]; then
     mkdir "./dbdata"
 fi
 
-if [! -d "./wiki" ]; then
+if [ ! -d "./wiki" ]; then
     mkdir "./wiki"
 fi
 
