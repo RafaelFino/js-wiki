@@ -103,6 +103,6 @@ dist
 # TernJS port file
 .tern-port
 
-./wiki/.db-secret
-
-./dbdata
+# data files
+wiki/.db-secret
+dbdata/*
