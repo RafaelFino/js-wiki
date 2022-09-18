@@ -36,7 +36,7 @@ services:
       POSTGRES_USER: wiki
     restart: unless-stopped
     volumes:
-      - "./dbdata:/var/lig/postgresql/data"
+      - "./dbdata:/var/lib/postgresql/data"
       - "./wiki/.db-secret:/etc/wiki/.db-secret"
     networks:
       - wikinet
